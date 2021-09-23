@@ -1,0 +1,5 @@
+#!/bin/sh
+killall -9 installd
+launchctl unload -w /System/Library/LaunchDaemons/com.apple.mobile.installd.plist
+launchctl load -w /System/Library/LaunchDaemons/com.apple.mobile.installd.plist
+exit 0

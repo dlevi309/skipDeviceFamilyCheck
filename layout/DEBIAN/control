@@ -1,0 +1,9 @@
+Package: daniel.skipdevicefamilycheck
+Name: skipDeviceFamilyCheck
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Allow iPad app installation on any device
+Maintainer: daniel
+Author: daniel
+Section: Tweaks

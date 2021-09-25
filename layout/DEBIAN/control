@@ -1,6 +1,6 @@
 Package: daniel.skipdevicefamilycheck
 Name: skipDeviceFamilyCheck
-Depends: mobilesubstrate
+Depends: mobilesubstrate, firmware (>= 13.0)
 Version: 0.0.1
 Architecture: iphoneos-arm
 Description: Allow iPad app installation on any device

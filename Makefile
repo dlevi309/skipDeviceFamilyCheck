@@ -1,4 +1,4 @@
-GO_EASY_ON_ME=1
+TARGET = iphone:clang:13.0
 
 ARCHS = arm64 arm64e
 
@@ -6,7 +6,6 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = skipDeviceFamilyCheck
 skipDeviceFamilyCheck_FILES = Tweak.xm
-skipDeviceFamilyCheck_FRAMEWORKS = CoreFoundation
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
